@@ -237,15 +237,3 @@ Answer (with citations):"""
     
     return response
 ```
-
----
-
-## SUMMARY TABLE
-
-| Issue | Cause | Fix |
-|-------|-------|-----|
-| **Retrieval Failure** | Poor chunks, embedding mismatch | Semantic chunking, reranking, hybrid search, fine-tuning |
-| **Token Overflow** | Too much context | Reduce chunks, compress, use larger models |
-| **Hallucination** | Incomplete retrieval, LLM ignores context | Force citations, temperature=0, grounding checks |
-
----
